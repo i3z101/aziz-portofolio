@@ -1,0 +1,29 @@
+.service_details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3.5rem 0 0 0;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    /* justify-content: space-around; */
+}
+
+.service_text {
+    color: var(--third-color);
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: var(--font);
+}
+
+@media only screen and (max-width:765px) {
+   .service_text {
+       font-size: 20px;
+       width: 50%;
+   }
+   .service_image {
+       width: 21vw;
+   }
+}

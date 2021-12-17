@@ -1,0 +1,71 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 464" width="512" height="464">
+	<title>Layer</title>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: #ffffff } 
+		.s1 { fill: #333333 } 
+		.s2 { fill: #0ba4e0 } 
+		.s3 { fill: #c8c8c8 } 
+	</style>
+	<path id="Layer" class="s0" d="m160 333.42h192v108.34h-192v-108.34z" />
+	<path id="Layer" class="s0" d="m160 352.15h114.24l-114.24 57.9v-57.9z" />
+	<path id="Layer" class="s0" d="m377.46 463.85h-242.91c-9.42 0-17.12-7.71-17.12-17.12v0c0-9.42 7.71-17.12 17.12-17.12h242.9c9.42 0 17.12 7.71 17.12 17.12v0c0.02 9.41-7.7 17.12-17.1 17.12z" />
+	<path id="Layer" class="s0" d="m480 352.15h-448c-17.6 0-32-14.4-32-32v-288c0-17.6 14.4-32 32-32h448c17.6 0 32 14.4 32 32v288c0 17.6-14.4 32-32 32z" />
+	<path id="Layer" class="s1" d="m21.97 22.09h468.16v308.13h-468.16v-308.13z" />
+	<path id="Layer" class="s0" d="m282.86 62.66h89.55v12.78h-89.55v-12.78z" />
+	<path id="Layer" class="s2" d="m300.77 98.49h71.63v12.78h-71.63v-12.78z" />
+	<path id="Layer" class="s3" d="m211.22 62.66h35.82v12.78h-35.82v-12.78z" />
+	<path id="Layer" class="s2" d="m229.12 98.49h35.82v12.78h-35.82v-12.78z" />
+	<path id="Layer" class="s0" d="m381.38 209.35h35.82v12.78h-35.82v-12.78z" />
+	<path id="Layer" class="s2" d="m291.82 209.35h35.82v12.78h-35.82v-12.78z" />
+	<path id="Layer" class="s0" d="m211.22 241.83h53.73v12.78h-53.73v-12.78z" />
+	<path id="Layer" class="s3" d="m426.21 62.66h35.82v12.78h-35.82v-12.78z" />
+	<path id="Layer" class="s2" d="m85.84 170.12h71.65v12.78h-71.65v-12.78z" />
+	<path id="Layer" class="s0" d="m193.31 170.12h71.65v12.78h-71.65v-12.78z" />
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m282.86 170.12h71.65v12.78h-71.65v-12.78z" />
+		<path id="Layer" class="s2" d="m85.84 241.83h71.65v12.78h-71.65v-12.78z" />
+	</g>
+	<g id="Layer">
+		<path id="Layer" class="s0" d="m336.69 241.83h53.73v12.78h-53.73v-12.78z" />
+		<path id="Layer" class="s0" d="m390.32 170.12h71.65v12.78h-71.65v-12.78z" />
+	</g>
+	<path id="Layer" class="s3" d="m106.14 209.35h67.34v12.78h-67.34v-12.78z" />
+	<path id="Layer" class="s0" d="m85.84 277.59h179.12v12.78h-179.12v-12.78z" />
+	<g id="Layer">
+		<path id="Layer" class="s2" d="m318.69 277.59h71.63v12.78h-71.63v-12.78z" />
+		<path id="Layer" class="s2" d="m85.84 134.31h107.47v12.78h-107.47v-12.78z" />
+		<path id="Layer" class="s2" d="m67.94 62.66h107.47v12.78h-107.47v-12.78z" />
+	</g>
+	<path id="Layer" class="s3" d="m50.02 98.49h107.47v12.78h-107.47v-12.78z" />
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+</svg>

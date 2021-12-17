@@ -1,0 +1,100 @@
+{
+    "services": [
+        {
+            "service": "Web Development",
+            "iconPath": "/imgs/web.svg",
+            "reverse": false
+
+        },
+        {
+            "service": "IOS Development",
+            "iconPath": "/imgs/iphone.svg",
+            "reverse": true
+        },
+        {
+            "service": "Android Development",
+            "iconPath": "/imgs/android.svg",
+            "reverse": false
+        },
+        {
+            "service": "Cloud Computing",
+            "iconPath": "/imgs/cloud.svg",
+            "reverse": true
+        }
+    ],
+    "projects": [
+        {
+            "name": "MTE2020",
+            "description": "MTE competition website during COVID-19",
+            "imagePath": "/imgs/mte.png",
+            "url": "https://corona-project-ff890.web.app/"
+        },
+        {
+            "name": "TWEETS POSTS",
+            "description": "A simple post tweet with authentication",
+            "imagePath": "/imgs/tweets.png",
+            "url": "https://twitter-app-5bced.web.app/"
+
+        },
+        {
+            "name":"E-COMMERCE",
+            "description": "A simple e-commerce with authentication",
+            "imagePath": "/imgs/ecom.png",
+            "url": "https://myshopppy.herokuapp.com/?page=1"
+        },
+        {
+            "name": "CUISINE",
+            "description": "Cuisine website for recipes",
+            "imagePath": "/imgs/cuisine.png",
+            "url": "https://cook-ffd4d.web.app/"
+        },
+        {
+            "name": "NOON E-COMMERCE",
+            "description": "Noon e-commerce website with payment",
+            "imagePath": "/imgs/noon.png",
+            "url": "https://noon-69029.web.app/"
+        },
+        {
+            "name": "CHAT ROOMS",
+            "description": "Chat room within a specific room",
+            "imagePath": "/imgs/chat.png",
+            "url": "https://aziz-chat-train.web.app/"
+        },
+        {
+            "name": "BLOG APP",
+            "description": "Blog websites to add new topics",
+            "imagePath": "/imgs/blog.png",
+            "url": "https://blog-app-aziz.herokuapp.com/"
+        },
+        {
+            "name": "CINEMA SYSTME",
+            "description": "A system to book movies tickets with payment",
+            "imagePath": "/imgs/cinema.png",
+            "url": "https://cbsapp.herokuapp.com/ "
+        },
+        {
+            "name": "E-INVOICE PACKAGE",
+            "description": "E-invoice generator with QR code",
+            "imagePath": "/imgs/invoice.png",
+            "url": "https://www.npmjs.com/package/e-invoice-pdf"
+        },
+        {
+            "name": "UMP DRIVER",
+            "description": "Drivier application for University Malaysia Pahang",
+            "imagePath": "/imgs/driver.jpeg",
+            "url": "https://expo.dev/@i_3z101/umpdriv"
+        },
+        {
+            "name": "ISP",
+            "description": "Spare parts application",
+            "imagePath": "/imgs/isp.jpeg",
+            "url": "https://expo.dev/@ispteam/isp"
+        },
+        {
+            "name": "INFAQ DAPUR",
+            "description": "A donation system for a charity in Malaysia",
+            "imagePath": "/imgs/infaq.jpeg",
+            "url":"https://expo.dev/@i_3z101/infaq-dapur"
+        }
+    ]
+}

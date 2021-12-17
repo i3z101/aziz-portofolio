@@ -1,0 +1,35 @@
+.icons_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+    overflow: hidden !important;
+    width: 80%;
+    margin: auto
+}
+
+.icon_box {
+    margin: 1.5rem 0 0 0;
+}
+
+.icon_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill_name {
+    text-align: center;
+    font-family: var(--font);
+    color: var(--third-color);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .icons_container {
+        width: 95%;
+        place-items: center;
+        margin: auto;
+    }
+}
+
