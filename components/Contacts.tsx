@@ -37,7 +37,7 @@ const contacts: ContactsInterface[] = [
 ] 
 
 const Contacts: FC = ()=> {
-    return <section className="space_section" id="contacts"> 
+    return <section className="space_section" id="contact"> 
         <Divider title="Contact" emoji="👋" />
         <div className="icons_container space_subsection">
             {contacts.map((contact): ReactNode => {
