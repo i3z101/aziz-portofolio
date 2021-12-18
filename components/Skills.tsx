@@ -6,13 +6,11 @@ import {SiNextdotjs, SiTypescript, SiLaravel, SiC, SiAmazonaws, SiMysql, SiFireb
 import { IconBaseProps } from "react-icons/lib";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-interface SkillsInterface {
-    skillName: string,
-    icon: IconBaseProps,
-}
+import { SkillsInterface } from "../helper/interfaces";
+import { ICON_COLOR, ICON_SIZE } from "../helper/default-value";
 
-const ICON_COLOR = 'white';
-const ICON_SIZE = 45;
+
+
 
 const skills: SkillsInterface[] = [
     {

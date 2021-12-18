@@ -6,13 +6,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import Aos from "aos";
 import data from '../helper/data.json';
+import { ProjectInterface } from "../helper/interfaces";
 
-interface ProjectInterface {
-    name: string,
-    description: string,
-    imagePath: string,
-    url: string
-}
 
 const Projects: FC = () => {
     const router:NextRouter = useRouter();

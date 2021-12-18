@@ -11,12 +11,18 @@
     /* justify-content: space-around; */
 }
 
+.service_image {
+    width: 8.5vw;
+}
+
 .service_text {
     color: var(--third-color);
     font-size: 30px;
     font-weight: bolder;
     font-family: var(--font);
 }
+
+
 
 @media only screen and (max-width:765px) {
    .service_text {

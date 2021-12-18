@@ -35,9 +35,27 @@
     border-bottom-right-radius: 0.7rem;
 }
 
+.to_up {
+    background-color: var(--second-color);
+    border: 1px solid var(--second-color);
+    border-radius: 0rem;
+    position: fixed;
+    right: 0rem;
+    bottom: 0rem;
+    display: none;
+    cursor: pointer;
+}
+
+.show_up {
+    display: block !important;
+}
+
 @media only screen and (max-width:768px) {
     .nav_link {
        width: 50%;
        text-align: center;
+    }
+    .nav_list_container {
+        margin-left: 1.2rem;
     }
 }

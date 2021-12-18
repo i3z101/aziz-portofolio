@@ -4,11 +4,8 @@ import Divider from "./reusable-components/Divider";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import data from '../helper/data.json';
-interface ServicesInerface {
-    service: string,
-    iconPath: string,
-    reverse: boolean
-}
+import { ServicesInerface } from "../helper/interfaces";
+
 
 
 const Services: FC = () => {

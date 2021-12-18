@@ -1,7 +1,28 @@
-import React, { FC } from "react";
+import React, { FC, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import {AiOutlineArrowUp} from 'react-icons/ai';
+import { ICON_SIZE } from "../helper/default-value";
 const Nav: FC = () => {
+
+    useEffect(():void => {
+        const toUp: HTMLDivElement | null = document.querySelector('.to_up');
+        window.addEventListener('scroll', ()=> {
+            if(window.scrollY > 120) {
+                toUp?.classList.add('show_up')
+            }else {
+                toUp?.classList.remove('show_up')
+            }
+        })
+    }, [])
+
+    const onTopUp = (): void => {
+        window.scrollTo({
+            top: 0,
+            behavior:'smooth'
+        })
+    }
+
     return <nav className="nav_container">
         <Image src={"/imgs/logo.svg"} width={250} height={250} className="logo" alt="logo" />
         <div className="nav_list_container">
@@ -23,6 +44,9 @@ const Nav: FC = () => {
             <Link href={"#contacts"}>
                 <a className="nav_link">Contacts</a>
             </Link>
+        </div>
+        <div className="to_up" onClick={onTopUp.bind(this)}>
+            <AiOutlineArrowUp color="black" size={ICON_SIZE} />
         </div>
     </nav>
 }

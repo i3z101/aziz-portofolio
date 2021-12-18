@@ -2,14 +2,12 @@ import React, { FC, ReactNode } from "react";
 import Divider from "./reusable-components/Divider";
 import {SiWhatsapp, SiMaildotru, SiLinkedin, SiGithub, SiTwitter, SiInstagram} from 'react-icons/si';
 import { IconBaseProps } from "react-icons/lib";
+import { ContactsInterface } from "../helper/interfaces";
+import { ICON_COLOR, ICON_SIZE } from "../helper/default-value";
 
-interface ContactsInterface {
-    link: string,
-    icon: IconBaseProps
-}
 
-const ICON_COLOR = 'white';
-const ICON_SIZE = 45;
+
+
 
 const contacts: ContactsInterface[] = [
     {
