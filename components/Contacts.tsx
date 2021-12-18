@@ -38,7 +38,7 @@ const contacts: ContactsInterface[] = [
 
 const Contacts: FC = ()=> {
     return <section className="space_section" id="contacts"> 
-        <Divider title="Contacts" emoji="👋" />
+        <Divider title="Contact" emoji="👋" />
         <div className="icons_container space_subsection">
             {contacts.map((contact): ReactNode => {
                 return <a href={contact.link} key={contact.link} className="icon_box" data-aos= "fade-up" target='_blank'  rel='noreferrer'>

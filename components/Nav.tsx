@@ -41,8 +41,8 @@ const Nav: FC = () => {
             <Link href={"#fulfillments"}>
                 <a className="nav_link">Fulfillments</a>
             </Link>
-            <Link href={"#contacts"}>
-                <a className="nav_link">Contacts</a>
+            <Link href={"#contact"}>
+                <a className="nav_link">Contact</a>
             </Link>
         </div>
         <div className="to_up" onClick={onTopUp.bind(this)}>
