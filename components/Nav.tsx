@@ -24,7 +24,7 @@ const Nav: FC = () => {
     }
 
     return <nav className="nav_container">
-        <Image src={"/imgs/logo.svg"} width={250} height={250} className="logo" alt="logo" />
+        <Image src={"/imgs/logo.svg"} priority={true} width={250} height={250} className="logo" alt="logo" />
         <div className="nav_list_container">
             <Link href={"#about"}>
                 <a className="nav_link">About me</a>

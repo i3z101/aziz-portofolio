@@ -2,7 +2,7 @@ import React, { FC, ReactNode, useEffect } from "react";
 import Divider from "./reusable-components/Divider";
 import {AiFillHtml5} from 'react-icons/ai';
 import {DiCss3, DiJavascript1, DiNodejsSmall, DiReact, DiPhp, DiJava, DiMongodb, DiFirebase} from 'react-icons/di';
-import {SiNextdotjs, SiTypescript, SiLaravel, SiC, SiAmazonaws, SiMysql, SiFirebase, SiBootstrap} from 'react-icons/si';
+import {SiNextdotjs, SiTypescript, SiLaravel, SiC, SiAmazonaws, SiMysql, SiFirebase, SiBootstrap, SiTailwindcss} from 'react-icons/si';
 import { IconBaseProps } from "react-icons/lib";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -62,8 +62,12 @@ const skills: SkillsInterface[] = [
         icon: <DiJava color={ICON_COLOR} size={ICON_SIZE}/>
     },
     {
-        skillName: "BOOTSTRAP",
+        skillName: "BOOT STRAP",
         icon: <SiBootstrap color={ICON_COLOR} size={ICON_SIZE}/>
+    },
+    {
+        skillName: "Tailwind CSS",
+        icon: <SiTailwindcss color={ICON_COLOR} size={ICON_SIZE}/>
     },
     {
         skillName: "MYSQL",
