@@ -2,7 +2,7 @@ import React, { FC, ReactNode, useEffect } from "react";
 import Divider from "./reusable-components/Divider";
 import {AiFillHtml5} from 'react-icons/ai';
 import {DiCss3, DiJavascript1, DiNodejsSmall, DiReact, DiPhp, DiJava, DiMongodb, DiFirebase} from 'react-icons/di';
-import {SiNextdotjs, SiTypescript, SiLaravel, SiC, SiAmazonaws, SiMysql, SiFirebase, SiBootstrap, SiTailwindcss, SiDocker} from 'react-icons/si';
+import {SiNextdotjs, SiTypescript, SiLaravel, SiC, SiAmazonaws, SiMysql, SiFirebase, SiBootstrap, SiTailwindcss, SiPython, SiDjango ,SiDocker} from 'react-icons/si';
 import { IconBaseProps } from "react-icons/lib";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -52,6 +52,14 @@ const skills: SkillsInterface[] = [
     {
         skillName: "LARAVEL",
         icon: <SiLaravel color={ICON_COLOR} size={ICON_SIZE}/>
+    },
+    {
+        skillName: "PYTHON",
+        icon: <SiPython color={ICON_COLOR} size={ICON_SIZE}/>
+    },
+    {
+        skillName: "Django",
+        icon: <SiDjango color={ICON_COLOR} size={ICON_SIZE}/>
     },
     {
         skillName: "C",
