@@ -14,7 +14,7 @@ const About: FC = () => {
         <Divider title="About Me" emoji="😇" />
         <div className="space_subsection">
                 <h1 className="about_name" data-aos='fade-down'>I am Abdulaziz,</h1>
-                <p className="about_deep" data-aos='fade-left'>Full stack developer and final year software engineering student. <br/>
+                <p className="about_deep" data-aos='fade-left'>Full stack developer.<br/>
                 My passion leads me always to achieve best things in development and my normal life.
                 </p>
             <div className="my_image" data-aos = 'fade-up'>
